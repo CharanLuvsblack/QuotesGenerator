@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+
+
+html,*,*::after,*::before{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Bad Script', cursive;
+    transition: 200ms;
+}
+body{
+    height: 100vh;
+    width: auto;
+    background: #171717; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+#top{
+    height: 30vh;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+#titleText{
+    color: aliceblue;
+    text-align: center;
+    
+}
+#btnLoad{
+    height: 3rem;
+    width: 10rem;
+    font-weight: bolder;
+    font-size: large;
+    color: #171717;
+    background: aliceblue; 
+    border: 0;
+    border-radius: 25px;
+}
+
+#btnLoad:hover{
+    background: rgb(127, 47, 255);
+    color: aliceblue;
+    cursor: pointer;
+}
+
+#QuoteDiv{
+    height: 70vh;
+    width: auto;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+}
